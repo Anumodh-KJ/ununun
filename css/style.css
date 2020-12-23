@@ -1118,11 +1118,20 @@ strong {
   padding: 35px 0 0 5px;
   letter-spacing: 1px;
 }
+
+@media (max-width: 325px) {
+   
+    .brand_slogan p {
+        font-size:48px;
+    }
+}
 @media (max-width: 767px) {
   .brand_name {
     background-color: #272727;
   }
+  
 }
+
 @media (max-width: 1199px) {
   .brand_name a {
     margin-top: 0px;
@@ -1133,6 +1142,7 @@ strong {
     font-size: 40px;
   }
 }
+
 @media (max-width: 767px) {
   .brand {
     margin-top: 20px;
@@ -1141,11 +1151,11 @@ strong {
    /* padding: 0 px 0;   */
   }
   .brand_slogan {
-    padding: 23px 0 0 12px;
+    padding: 23px 0 0 0px;
     font-size: 40px;
   }
   p {
-      margin-top: -12px;
+      margin-top: 0px;
   }
 }
 
